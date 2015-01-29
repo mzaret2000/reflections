@@ -4,3 +4,6 @@ A: A .git folder/file is created that stores the metadata about the file you hav
 Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 A: The staging area seems to be a purgatory where you can make changes to multiple files at once without altering files in the working directory or making a commit. It could be a low risk area to alter multiple files at once and prepare them before going through with any official changes. It should help you keep your commit orderly.
+
+Q: How can you use the staging area to make sure you have one commit per logical change?
+A: You can git diff --staged to see what the differences between the last commit and the staging area and verify that only one logical change is being made
