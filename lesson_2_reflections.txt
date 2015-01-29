@@ -6,4 +6,7 @@ Q: How is the staging area different from the working directory and the reposito
 A: The staging area seems to be a purgatory where you can make changes to multiple files at once without altering files in the working directory or making a commit. It could be a low risk area to alter multiple files at once and prepare them before going through with any official changes. It should help you keep your commit orderly.
 
 Q: How can you use the staging area to make sure you have one commit per logical change?
-A: You can git diff --staged to see what the differences between the last commit and the staging area and verify that only one logical change is being made
+A: You can git diff --staged to see what the differences between the last commit and the staging area and verify that only one logical change is being made.
+
+Q: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+A: Anytime you want to maintain alternate versions of the project branches are helpful. They allow you to work through alternate histories so to speak and you can easily label versions in plain english.
