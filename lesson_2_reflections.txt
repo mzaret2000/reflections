@@ -10,3 +10,6 @@ A: You can git diff --staged to see what the differences between the last commit
 
 Q: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 A: Anytime you want to maintain alternate versions of the project branches are helpful. They allow you to work through alternate histories so to speak and you can easily label versions in plain english.
+
+Q: How do the diagrams help you visualize the branch structure?
+A: Diagrams help you the parent-child relationship between commits. You can see which commits are related to each other and reachable depending on the branch.
