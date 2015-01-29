@@ -1,0 +1,2 @@
+Q: What happens when you initialize a repository? Why do you need to do it?
+A: A .git folder/file is created that stores the metadata about the file you have. You need to do it for you to be able to begin taking snapshots of your project files.

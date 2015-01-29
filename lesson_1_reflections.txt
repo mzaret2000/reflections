@@ -1,0 +1,28 @@
+Using diff can help me find differences more quickly and more precisely than manual methods
+
+Q: How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+A: You can compare new versions with old to find bugs. You can see the evolution on part of the program.
+
+Q: What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+A:
+
+Cons: (1) you could lose progress on something you have been working on. (2) Two reasonable people may disagree on commit size.
+
+Pros: (1) You can more easily search the history of changes. (2) Versions can have discrete easy to identify differences.
+
+Q: Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+A: Git is designed to handle mutliple files that have dependencies. Two files in google may be related, but it most cases there aren't dependencies between them.
+
+Q: How can you use the commands git log and git diff to view the history of files?
+
+A: git log allows me to see the commit history for the project. I can use git diff to find commits that I want to compare (commits can be changes to 1 or more files). I can type q to exit git log and than type git diff followed by the commit that I want to compare to file changes for the commit I'm looking at.
+
+Q: How might using version control make you more confident to make changes that could break something?
+
+A: I know I can navigate back to previous project states so I'm less concerned about introducing bugs.
+
+Q: Now that you have your workspace set up, what do you want to try using Git for?
+A: My next project for this class. I also have some R projects that could be cool to port over to git
