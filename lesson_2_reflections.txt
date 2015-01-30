@@ -16,3 +16,6 @@ A: Diagrams help you the parent-child relationship between commits. You can see 
 
 Q: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 A: Merging combines the insertions and deletions from the branch tips and traces back to the shared ancestor to determine that. The old branch tips are both parents of the new master tip. The diagram represents this and we can use it see all the commits that are reachable from the new tip.
+
+Q: What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+A: Automatic merging will save time but could lead to conflicts or situations where people have have knowledge gaps about what's now there.
