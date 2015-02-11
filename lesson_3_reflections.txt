@@ -3,3 +3,7 @@ A: When your working with multiple people. When you're working with multiple mac
 
 Q: Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 A: You may prefer to have a different version of the reposoitory on your local machine. You may be experimenting and purposely differ from the github repo.
+
+Q: Describe the differences between forks, clones, and branches. When would you use one instead of another?
+A: Forks are special cloning mechanism available on github that allows your clone to be related to the original project but keeps your project separate from the original.
+Branches are different versions of the same project versus a clone which is a copy of a project. Forks are only for github. You'll still need to clonen after you fork to bring a repo to your home machine.
