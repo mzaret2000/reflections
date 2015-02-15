@@ -7,3 +7,7 @@ A: You may prefer to have a different version of the reposoitory on your local m
 Q: Describe the differences between forks, clones, and branches. When would you use one instead of another?
 A: Forks are special cloning mechanism available on github that allows your clone to be related to the original project but keeps your project separate from the original.
 Branches are different versions of the same project versus a clone which is a copy of a project. Forks are only for github. You'll still need to clonen after you fork to bring a repo to your home machine.
+
+Q: What is the benefit of having a copy of the last known state of the remote stored locally?
+A: So you can understand how anything you build fits in with the current state of the project. 
+Is what you're doing easily compatible with the remote master or are you diverging significantly.
