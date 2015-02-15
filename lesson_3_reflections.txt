@@ -11,3 +11,7 @@ Branches are different versions of the same project versus a clone which is a co
 Q: What is the benefit of having a copy of the last known state of the remote stored locally?
 A: So you can understand how anything you build fits in with the current state of the project. 
 Is what you're doing easily compatible with the remote master or are you diverging significantly.
+
+Q: How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+A: We could all start with the same directories on our local machines. Keeping them up to date and resolving conflicts would be really challenging. 
+It's hard to think about what would be easier. I guess local updates would be quicker but those time savings would evaporate once a merging was needed.
