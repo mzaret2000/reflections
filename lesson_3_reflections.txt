@@ -15,3 +15,6 @@ Is what you're doing easily compatible with the remote master or are you divergi
 Q: How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 A: We could all start with the same directories on our local machines. Keeping them up to date and resolving conflicts would be really challenging. 
 It's hard to think about what would be easier. I guess local updates would be quicker but those time savings would evaporate once a merging was needed.
+
+Q: When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+A: I think the reasons would be the same reasons as when working with Git locally. Branch when you're doing something exploratorya and it gives you freedom. Work directly on master when your confident that you have small changes that everyone will want. Branching and using pull requests is nice to as it fosters feedback.
